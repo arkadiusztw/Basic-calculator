@@ -1,2 +1,2 @@
 Projekt kalkulatora o podstawowych funkcjach.
-![alt text](https://i.imgur.com/vS7yDNx.png)
+![](https://i.imgur.com/vS7yDNx.png | width=100)
