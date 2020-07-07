@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kalkulator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body onload="init()">
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="container">
+        <div class="frame">
+            <div id="resultFrame">
+                <input type="text" id="result" value="">
+                <input type="text" id="alert" value="" disabled>
+
+            </div>
+            <div id="actionFrame">
+                <button class="delete" id="deleteButton">←</button>
+            </div>
+            <div class="section1">
+                <div id="buttons-t">
+                    <button class="digits gray" id="actions0" value="%">%</button><button class="digits gray"
+                        id="actions1" value="/">/</button><button class="digits gray" id="actions2" value="*">X</button>
+                </div>
+                <div id="buttons-l"></div>
+                <div id="buttons-b"><button class="digits" id="actionsAC" value="AC">AC</button><button class="digits"
+                        id="actionsO" value="0">0</button><button class="digits" id="actions3" value=".">.</button>
+                </div>
+            </div>
+            <div class="section2">
+                <div id="buttons-r"><button class="digits gray" id="actions4" value="+">+</button>
+                    <div id="buttons-r"><button class="digits gray" id="actions5" value="-">-</button></div>
+                    <div id="buttons-r"><button class="equal" id="actionsEqual" value="=">=</button></div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <script src="js/index.js" async defer></script>
+</body>
+
+</html>
